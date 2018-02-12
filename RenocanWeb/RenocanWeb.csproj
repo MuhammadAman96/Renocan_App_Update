@@ -167,11 +167,15 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\Business_HomeController.cs" />
+    <Compile Include="Controllers\ClientAccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Business_Home.cs" />
+    <Compile Include="Models\Business_Listing.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\RegistrationCompany.cs" />
@@ -283,9 +287,25 @@
     <Content Include="Views\Home\BusinessSignUp.cshtml" />
     <Content Include="Views\Shared\_footer.cshtml" />
     <Content Include="Views\Shared\_header.cshtml" />
+    <Content Include="Views\Business_Home\Activity.cshtml" />
+    <Content Include="Views\Business_Home\Listing.cshtml" />
+    <Content Include="Views\Business_Home\Media.cshtml" />
+    <Content Include="Views\Business_Home\Reviews.cshtml" />
+    <Content Include="Views\Business_Home\Scoreboard.cshtml" />
+    <Content Include="Views\Business_Home\toolkit.cshtml" />
+    <Content Include="Views\ClientAccount\Client_account.cshtml" />
+    <Content Include="Views\ClientAccount\Client_bookmarks.cshtml" />
+    <Content Include="Views\ClientAccount\Client_activity.cshtml" />
+    <Content Include="Views\ClientAccount\Client_Sign_up.cshtml" />
+    <Content Include="Views\ClientAccount\Client_review.cshtml" />
+    <Content Include="Views\ClientAccount\Client_forgot_password.cshtml" />
+    <Content Include="Views\Business_Home\Business_forgot_password.cshtml" />
+    <Content Include="Views\ClientAccount\Client_job_request.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\abc\" />
+    <Folder Include="Views\User_Account\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

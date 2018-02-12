@@ -40,7 +40,7 @@ namespace RenocanWeb.Controllers
                 }
                 return BusinessCategoryList;
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 //LogError(ex);
                 return null;
